@@ -26,6 +26,10 @@
         }
     });
 
+    p.bind('keyup', input, function(e) {
+        (e.keyCode || e.charCode) === 13 && publish()
+    });
+    
     p.bind('click', button, publish);
 
     function publish() {
