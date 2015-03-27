@@ -5,7 +5,7 @@
         button = PUBNUB.$('button'),
         presence = PUBNUB.$('presence');
 
-    var channel = 'mchat';
+    var channel = 'propChat';
     
     var p = PUBNUB.init({
         subscribe_key: 'sub-c-f762fb78-2724-11e4-a4df-02ee2ddab7fe',

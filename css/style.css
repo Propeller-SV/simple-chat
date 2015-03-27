@@ -43,16 +43,12 @@ button {
     height: 75px;
     position: relative;
 }
-#chat i {
-    font-size: 75px;
-    position: absolute;
 
-}
 #chat input {
-    margin-left: 75px;
+    /*margin-left: 75px;*/
     position: relative;
     top: 15px;
-    width: calc(100% - 75px);
+    width: calc(100% - 25px);
 }
 #main {
     margin: 2em 1em 1em;
@@ -64,11 +60,6 @@ button {
     font-size: 1.2em;
     margin: 0.6em;
     position: relative;
-}
-#output i {
-    font-size: 40px;
-    position: absolute;
-    top: -5px;
 }
 #output span {
     position: relative;
