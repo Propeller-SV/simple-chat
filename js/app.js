@@ -31,7 +31,8 @@
     function publish() {
         p.publish({
             channel : channel, 
-            message : {text: input.value}            
+            message : {text: input.value},
+            x : (input.value='')
         });
     }
 
